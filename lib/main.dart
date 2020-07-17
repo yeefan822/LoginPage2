@@ -40,14 +40,11 @@ class _LoginHomePageState extends State<LoginHomePage> {
           mainAxisSize: MainAxisSize.max,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
-            Container(
-              height: 70.0,
-              alignment:Alignment.centerLeft,
-              padding: EdgeInsets.only(left:30.0),
-              color: Colors.white,
-              child: Icon(Icons.access_alarm,
-              color: Colors.white),
+            new Padding(
+              padding: new EdgeInsets.all(15.00),
+              child: new Image.asset('assets/images/login.png'),
             ),
+
             Container(
               color: Colors.white,
               alignment: Alignment.center,
